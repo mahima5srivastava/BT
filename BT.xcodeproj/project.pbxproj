@@ -17,6 +17,13 @@
 		CC2AE9792B7491FA00CDF3DF /* BTTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC2AE9782B7491FA00CDF3DF /* BTTests.swift */; };
 		CC2AE9832B7491FA00CDF3DF /* BTUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC2AE9822B7491FA00CDF3DF /* BTUITests.swift */; };
 		CC2AE9852B7491FA00CDF3DF /* BTUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC2AE9842B7491FA00CDF3DF /* BTUITestsLaunchTests.swift */; };
+		CC4E00212B85BF4D009C90BA /* DataCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC4E001F2B85BF4D009C90BA /* DataCell.swift */; };
+		CC4E00222B85BF4D009C90BA /* DataCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC4E00202B85BF4D009C90BA /* DataCell.xib */; };
+		CC4E00242B85C592009C90BA /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC4E00232B85C592009C90BA /* PageViewController.swift */; };
+		CC4E00262B85C7B0009C90BA /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC4E00252B85C7B0009C90BA /* NetworkManager.swift */; };
+		CC4E00282B85CCF4009C90BA /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC4E00272B85CCF4009C90BA /* Models.swift */; };
+		CC4E002A2B85E70A009C90BA /* CachedImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC4E00292B85E70A009C90BA /* CachedImageView.swift */; };
+		CC4E002C2B85FE57009C90BA /* PageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC4E002B2B85FE57009C90BA /* PageManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +58,13 @@
 		CC2AE97E2B7491FA00CDF3DF /* BTUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BTUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC2AE9822B7491FA00CDF3DF /* BTUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BTUITests.swift; sourceTree = "<group>"; };
 		CC2AE9842B7491FA00CDF3DF /* BTUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BTUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CC4E001F2B85BF4D009C90BA /* DataCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataCell.swift; sourceTree = "<group>"; };
+		CC4E00202B85BF4D009C90BA /* DataCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DataCell.xib; sourceTree = "<group>"; };
+		CC4E00232B85C592009C90BA /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
+		CC4E00252B85C7B0009C90BA /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		CC4E00272B85CCF4009C90BA /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		CC4E00292B85E70A009C90BA /* CachedImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CachedImageView.swift; sourceTree = "<group>"; };
+		CC4E002B2B85FE57009C90BA /* PageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +123,13 @@
 				CC2AE96C2B7491FA00CDF3DF /* LaunchScreen.storyboard */,
 				CC2AE96F2B7491FA00CDF3DF /* Info.plist */,
 				CC2AE9672B7491F600CDF3DF /* BT.xcdatamodeld */,
+				CC4E001F2B85BF4D009C90BA /* DataCell.swift */,
+				CC4E00202B85BF4D009C90BA /* DataCell.xib */,
+				CC4E00232B85C592009C90BA /* PageViewController.swift */,
+				CC4E00252B85C7B0009C90BA /* NetworkManager.swift */,
+				CC4E00272B85CCF4009C90BA /* Models.swift */,
+				CC4E00292B85E70A009C90BA /* CachedImageView.swift */,
+				CC4E002B2B85FE57009C90BA /* PageManager.swift */,
 			);
 			path = BT;
 			sourceTree = "<group>";
@@ -237,6 +258,7 @@
 				CC2AE96E2B7491FA00CDF3DF /* LaunchScreen.storyboard in Resources */,
 				CC2AE96B2B7491FA00CDF3DF /* Assets.xcassets in Resources */,
 				CC2AE9662B7491F600CDF3DF /* Main.storyboard in Resources */,
+				CC4E00222B85BF4D009C90BA /* DataCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,6 +286,12 @@
 				CC2AE9632B7491F600CDF3DF /* ViewController.swift in Sources */,
 				CC2AE9692B7491F600CDF3DF /* BT.xcdatamodeld in Sources */,
 				CC2AE95F2B7491F600CDF3DF /* AppDelegate.swift in Sources */,
+				CC4E00282B85CCF4009C90BA /* Models.swift in Sources */,
+				CC4E00262B85C7B0009C90BA /* NetworkManager.swift in Sources */,
+				CC4E00242B85C592009C90BA /* PageViewController.swift in Sources */,
+				CC4E002C2B85FE57009C90BA /* PageManager.swift in Sources */,
+				CC4E002A2B85E70A009C90BA /* CachedImageView.swift in Sources */,
+				CC4E00212B85BF4D009C90BA /* DataCell.swift in Sources */,
 				CC2AE9612B7491F600CDF3DF /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
